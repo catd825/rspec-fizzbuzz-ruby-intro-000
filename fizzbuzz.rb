@@ -4,17 +4,15 @@
 
 def fizzbuzz(int)
   if int % 15 == 0
-  puts "Fizzbuzz"
+   return "Fizzbuzz"
   elsif int % 3 == 0
-    puts "Fizz"
+    return "Fizz"
   elsif int % 5 == 0
-    puts "Buzz"
+    return "Buzz"
   else
-    puts "na"
+    return "na"
   end
 end
 
 
-fizzbuzz_3=fizzbuzz(3)
-fizzbuzz_5=fizzbuzz(5)
-fizzbuzz_15=fizzbuzz(15)
+
