@@ -13,6 +13,3 @@ def fizzbuzz(int)
     return "na"
   end
 end
-
-
-
