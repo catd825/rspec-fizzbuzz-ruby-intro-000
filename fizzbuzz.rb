@@ -1,11 +1,9 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 
-
 fizzbuzz_3=fizzbuzz(3)
 fizzbuzz_5=fizzbuzz(5)
 fizzbuzz_15=fizzbuzz(15)
-
 
 def fizzbuzz(int)
   if int % 15 == 0
